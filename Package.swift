@@ -27,11 +27,15 @@ let package = Package(
             name: "XCTestExtensions",
             path: "UltiMock/Sources/XCTestExtensions"
         ),
-        .binaryTarget(name: "mock", path: "mock.artifactbundle"),
+        .binaryTarget(
+            name: "ultimock",
+            url: "https://api.github.com/repos/smg-real-estate/Swift-UltiMock-Binary/releases/assets/125713553.zip",
+            checksum: "6a1e408a1f295c9c9e525a879ad01a7080d11cb0d0e5e7202c1a1958b22a10b5"
+        ),
         .plugin(
             name: "MockGenerationPlugin",
             capability: .buildTool(),
-            dependencies: ["mock"],
+            dependencies: ["ultimock"],
             path: "UltiMock/Plugins/MockGenerationPlugin"
         )
     ]

@@ -6,4 +6,4 @@ xcuserdata/
 DerivedData/
 .swiftpm
 .swiftformat-bin
-*.artifactbundle
+*.artifactbundle*
