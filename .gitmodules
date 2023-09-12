@@ -1,0 +1,3 @@
+[submodule "UltiMock"]
+	path = UltiMock
+	url = https://github.com/smg-real-estate/Swift-UltiMock
