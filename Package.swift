@@ -29,8 +29,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ultimock",
-            url: "https://api.github.com/repos/smg-real-estate/Swift-UltiMock-Binary/releases/assets/175125771.zip",
-            checksum: "2cffe033f4a774694f98a8457139036f7c8b102ff8e255fca95d415ac0d4b3e5"
+            url: "https://api.github.com/repos/smg-real-estate/Swift-UltiMock-Binary/releases/assets/190138978.zip",
+            checksum: "0dc309cab7e8d419c348eb67d2238bcfc0cbc308714393b1c96edd169bb422a0"
         ),
         .plugin(
             name: "MockGenerationPlugin",
