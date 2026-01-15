@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:6.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import Foundation
@@ -29,8 +29,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ultimock",
-            url: "https://github.com/smg-real-estate/Swift-UltiMock-Binary/releases/download/0.6.4/ultimock.artifactbundle.zip",
-            checksum: "77a08a400e58a032c7db45170c91855942104057c120548757e954060bb06fdf"
+            url: "https://github.com/smg-real-estate/Swift-UltiMock-Binary/releases/download/1.0.0/ultimock.artifactbundle.zip",
+            checksum: "b00657ba0749ad51471da31b588733267bfc6449635b85e0c88f3c0fbd0dae75"
         ),
         .plugin(
             name: "MockGenerationPlugin",
